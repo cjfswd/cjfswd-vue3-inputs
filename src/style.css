@@ -1,0 +1,15 @@
+input,
+select,
+textarea {
+  outline: none;
+  @apply rounded p-[3px] border border-neutral-500;
+}
+
+.input,
+select {
+  @apply flex flex-col text-sm tracking-tight;
+}
+
+label {
+  @apply pl-[1px];
+}
