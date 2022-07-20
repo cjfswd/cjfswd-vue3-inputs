@@ -1,7 +1,8 @@
 
 import { createApp } from 'vue'
-import './style.css'
 import './index.css'
+import './style.css'
+import 'cjfswd-vue3-inputs/dist/style.css'
 import App from './App.vue'
 
 const vue = createApp(App)

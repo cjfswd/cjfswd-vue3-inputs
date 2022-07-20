@@ -1,7 +1,7 @@
 {
   "name": "cjfswd-vue3-inputs",
   "description": "my vue 3 input component library made with vite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@rollup/plugin-typescript": "^8.3.3",
+    "cjfswd-vue3-inputs": "^0.0.2",
     "vite-plugin-dts": "^1.3.0",
     "vue": "^3.2.37"
   },

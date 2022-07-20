@@ -8,7 +8,7 @@ import {
   InputSwitch,
   InputCheckbox,
   InputGroupCheckbox,
-} from "cjfswd-vue3-inputs";
+} from "cjfswd-vue3-inputs"
 
 const data = reactive({
   inputText: "",
@@ -22,6 +22,7 @@ const data = reactive({
 </script>
 <template>
   <div class="flex flex-col justify-center items-center">
+    <h1>cjfswd-vue3-inputs</h1>
     <div class="flex flex-col gap-2 w-1/2">
       <InputText label="InputText" v-model="data.inputText" />
       <InputText placeholder="InputText" v-model="data.inputText" />
