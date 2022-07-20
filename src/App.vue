@@ -8,7 +8,7 @@ import {
   InputSwitch,
   InputCheckbox,
   InputGroupCheckbox,
-} from "cjfswd-vue3-inputs";
+} from "cjfswd-vue3-inputs"
 
 const data = reactive({
   inputText: "",
